@@ -669,6 +669,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "game_girl"
+version = "0.1.0"
+dependencies = [
+ "blip_buf",
+ "clap",
+ "cpal",
+ "glium",
+]
+
+[[package]]
 name = "gimli"
 version = "0.28.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1274,16 +1284,6 @@ name = "raw-window-handle"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2ff9a1f06a88b01621b7ae906ef0211290d1c8a168a15542486a8f61c0833b9"
-
-[[package]]
-name = "rboy"
-version = "0.1.0"
-dependencies = [
- "blip_buf",
- "clap",
- "cpal",
- "glium",
-]
 
 [[package]]
 name = "redox_syscall"

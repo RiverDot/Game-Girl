@@ -1,7 +1,7 @@
 [package]
-name = "rboy"
+name = "game_girl"
 version = "0.1.0"
-authors = [ "mvdnes <git@mathijs.vd-nes.nl>" ]
+authors = [ "mvdnes <git@mathijs.vd-nes.nl>", "riverdot" ]
 edition = "2018"
 
 [dependencies]
@@ -11,6 +11,6 @@ cpal = "0.15"
 glium = { version = "0.32", default_features = false, features = [ "glutin" ] }
 
 [[bin]]
-name = "rboy"
+name = "game_girl"
 test = false
 doc = false
